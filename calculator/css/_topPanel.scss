@@ -1,0 +1,33 @@
+.top_panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+   
+    font-weight: 700;
+ 
+    border-radius: 10px;
+    background-color: #9cb5e0;
+    z-index: 1;
+    text-align: right;
+    border: 5px rgba(74, 109, 204, .3) solid;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.previous-operand, .current-operand {
+    min-height: 80px;
+}
+
+.previous-operand {
+    font-size: 20px;
+    color: rgba(46, 57, 102, .5);
+}
+
+.current-operand {
+     font-size: 50px;
+     color: rgb(46, 57, 102);
+}
+
